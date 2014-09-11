@@ -39,9 +39,9 @@ put the icon into a pseudo before / after element.
 
 ## Dev
 
-To recompile the icon font and Sass: `grunt`
-To recompile the font only: `grunt webfont`
-To recompile the Sass only: `grunt sass`
+- To recompile the icon font and Sass: `grunt`
+- To recompile the font only: `grunt webfont`
+- To recompile the Sass only: `grunt sass`
 
 ## Notes
 

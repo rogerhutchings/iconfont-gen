@@ -1,7 +1,7 @@
 # Sass Icon Font Generator
 
 This is a proof of concept for a Sass mixin-powered icon font set. It works by
-creating an icon font using the [grunt-webfont]() package, and generating an 
+creating an icon font using the [grunt-webfont](https://github.com/sapegin/grunt-webfont) package, and generating an 
 importable Sass file using a custom template to create a variable for 
 each glyph.
 
@@ -13,8 +13,9 @@ To see it in action, do an initial compile by running `grunt` and open the
 
 ## Dependencies
 
-- Node
-- Grunt
+- [Node](http://nodejs.org/)
+- [Grunt](http://gruntjs.com/)
+- [Sass](http://sass-lang.com)
 
 ## Installation
 

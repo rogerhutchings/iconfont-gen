@@ -9,7 +9,7 @@ These variables can then be passed into a mixin to replace the existing text and
 put the icon into a pseudo before / after element.
 
 To see it in action, do an initial compile by running `grunt` and open the 
-`demo/index.html`.
+`demo/index.html` file.
 
 ## Dependencies
 

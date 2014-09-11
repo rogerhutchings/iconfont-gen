@@ -1,0 +1,10 @@
+@mixin icon($icon, $position: 'after')
+     
+    @if $position == 'before' or $position == 'after'
+        &:#{$position}
+            @extend %icons
+            display: inline-block
+            content: $icon
+
+    @else
+        @error 'Invalid position argument'

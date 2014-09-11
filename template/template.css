@@ -1,0 +1,15 @@
+@mixin icon($icon, $position: 'after')
+     
+    @if $position == 'before' or $position == 'after'
+        &:#{$position}
+            @extend %icons
+            display: inline-block
+            content: $icon
+
+    @else
+        @error 'Invalid position argument'
+
+
+// Icon variables
+<% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { %>
+$<%= mixinPrefix %><%= glyphs[glyphIdx] %>: "<% if (addLigatures) { %><%= glyphs[glyphIdx] %><% } else { %>\<%= codepoints[glyphIdx] %><% } %>"<% } %>

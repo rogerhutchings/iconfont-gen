@@ -1,0 +1,9 @@
+.sass-cache/
+node_modules/
+.DS_Store
+
+# Compiled files
+fonts/
+sass/_icons.sass
+demo/main.css
+demo/main.css.map
